@@ -33,8 +33,8 @@ async def startmessage(event):
       ok = event.chat_id
       await client.send_message(event.chat_id,
                                 message=START_TEXT,
-                                buttons=[[Button.url("Deploy Clone","https://heroku.com/deploy?template=https://github.com/ImJanindu/Anonymous-bot"),
-                                         Button.url("Support Channel","https://t.me/Infinity_BOTs")]])                                                                
+                                buttons=[[Button.url("Developer 🧑‍💻","https://t.me/darkz_hacker_devil"),
+                                         Button.url("Support Channel 🤖","https://t.me/media_bot_updates")]])                                                                
     if event.message.media:
       await client.send_message(event.chat_id,file=event.message.media)
     else:
